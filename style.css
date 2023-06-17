@@ -1,0 +1,72 @@
+.jumbotron {
+  background-image: url(gambar/jumbotron2.png);
+  padding-top: 6rem;
+  background-size: cover;
+  background-position-y: -8rem;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.color-overlay {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 760px) {
+  .jumbotron {
+    min-height: 3vh;
+  }
+}
+
+.card-link:hover {
+  text-decoration: none;
+  background-color: #43d300;
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.logo1 {
+  width: 50px; /* Ubah ukuran sesuai kebutuhan Anda */
+  height: auto; /* Biarkan tinggi mengikuti proporsi asli */
+}
+
+#dokumentasi {
+  height: 50rem;
+}
+
+.burung {
+  background-image: url(gambar/3.png);
+  background-size: cover;
+  background-position-y: -181px;
+  background-repeat: no-repeat;
+}
+
+.burung1 {
+  background-image: url(gambar/3.png);
+  background-size: cover;
+  background-position-y: 110px;
+  background-repeat: no-repeat;
+}
+
+#dokumentasi .kontainer {
+  max-width: 1120px;
+  width: 100%;
+  padding: 30px;
+  border-radius: 2%;
+}
+
+.swiper-slide .card {
+  background-color: #ff6d60;
+  border: 5px solid #ff6d60;
+}
+
+.swiper-slide .card p {
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+}
