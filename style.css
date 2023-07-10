@@ -18,12 +18,8 @@
 }
 
 .jumbotron {
-  background-image: url(gambar/jumbotron2.png);
-  padding-top: 6rem;
-  background-size: cover;
-  background-position-y: -8rem;
-  background-attachment: fixed;
-  position: relative;
+  padding-top: 5rem;
+  background-color: #cde990;
 }
 
 .color-overlay {
@@ -78,12 +74,12 @@ section {
 }
 
 .swiper-slide .card {
-  background-color: #ff6d60;
-  border: 5px solid #ff6d60;
+  background-color: #bbbbbb;
+  border: 5px solid #bbbbbb;
 }
 
 .swiper-slide .card p {
-  color: white;
+  color: black;
 }
 
 footer a {
